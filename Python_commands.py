@@ -5,4 +5,4 @@ df_new = pd.merge(df1,df12,how = 'left',left_on = ['super_category','sub_categor
 
 ### 2) Apply Command(How to apply a function on all the rows)
 df_text['mfr_len'] =  df_text['merchant_first_reply'].apply(lambda x : len(x)) - df_text['merchant_first_reply'].apply(lambda x : x.count(' '))
- ## Above command shows how to use apply in 2 different types of fucntions
+ ## Above command shows how to usee apply in 2 different types of fucntions
